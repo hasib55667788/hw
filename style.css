@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body css start */
+
+body {
+    background: rgb(97, 211, 97);
+}
+
+/* body css end */
+
+/* default css start */
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 8px;
+}
+
+img {
+    width: 100%;
+}
+
+/* default css end */
+
+
+/* menu css start */
+
+.menu {
+    background: rgb(122, 248, 183);
+    overflow: hidden;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    float: left;
+}
+
+.menu ul li a {
+    padding: 10px 20px;
+    color: rgb(37, 18, 244);
+    display: inline-block;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: 2s;
+}
+
+.menu ul li a:hover {
+    background: rgb(17, 15, 14);
+}
+
+/* menu css end */
+
+
+
+/* header css start */
+
+header {
+    background: rgb(79, 227, 20);
+ background-image:url(img/abstract-background-futuristic-pedestal-product-presentation_35913-2415.avif) ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.header-content{
+    text-align: center;
+    padding: 100px;
+    
+}   
+
+.sub-heading{
+    color: aliceblue;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.heading{
+    color: aliceblue;
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 50px;
+    margin-bottom: 64px;
+}
+
+.btn{
+    color: black;
+    font-size: 20px;
+    background: #fff;
+    padding: 16px 26px;
+    font-weight: 700;
+    border-radius: 10px;
+    transition: 2s;
+}
+
+.btn:hover{
+    background: rgba(255, 255, 255, 0.491);
+}
+
+/* header css end */
+
+
+
+/* .main-box{
+    overflow: hidden;
+}
+
+.box{
+    background: rgb(18, 93, 36);
+    height: 150px;
+    width: 30%;
+    padding: 20px;
+   margin-bottom: 20px;
+   float: left;
+} */
